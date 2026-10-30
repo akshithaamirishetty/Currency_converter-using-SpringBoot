@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #dbeafe, #ede9fe);
+    min-height: 100vh;
+    padding: 35px 15px;
+}
+
+.container {
+    max-width: 850px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #312e81;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #555;
+}
+
+.converter-card,
+.history-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+h2 {
+    color: #312e81;
+    margin-bottom: 22px;
+}
+
+label {
+    display: block;
+    margin-bottom: 9px;
+    font-weight: bold;
+    color: #444;
+}
+
+input, select {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background: white;
+}
+
+.currency-section {
+    display: flex;
+    align-items: end;
+    gap: 15px;
+    margin-top: 22px;
+}
+
+.currency-box {
+    flex: 1;
+}
+
+.swap-button {
+    padding: 12px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #ede9fe;
+    color: #4f46e5;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.convert-button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 25px;
+    background: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.convert-button:hover {
+    background: #3730a3;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.result {
+    margin-top: 22px;
+    padding: 18px;
+    background: #eef2ff;
+    border-radius: 8px;
+    text-align: center;
+    color: #312e81;
+    font-size: 18px;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+}
+
+.history-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.history-heading button,
+.delete-button {
+    padding: 9px 15px;
+    background: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 13px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background: #eef2ff;
+    color: #312e81;
+}
+
+.delete-button {
+    background: #dc2626;
+}
+
+@media (max-width: 600px) {
+    .currency-section {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .swap-button {
+        align-self: center;
+    }
+
+    .converter-card,
+    .history-card {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+}

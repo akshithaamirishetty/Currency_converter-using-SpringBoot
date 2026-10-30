@@ -1,0 +1,11 @@
+/workspaces/Currency_converter-using-SpringBoot/src/main/java/com/example/currency converter/CurrencyConverterApplication.java
+/workspaces/Currency_converter-using-SpringBoot/src/main/java/com/example/currency converter/config/ApiKeyInterceptor.java
+/workspaces/Currency_converter-using-SpringBoot/src/main/java/com/example/currency converter/config/AppConfig.java
+/workspaces/Currency_converter-using-SpringBoot/src/main/java/com/example/currency converter/config/WebConfig.java
+/workspaces/Currency_converter-using-SpringBoot/src/main/java/com/example/currency converter/controller/CurrencyController.java
+/workspaces/Currency_converter-using-SpringBoot/src/main/java/com/example/currency converter/dto/ConversionRequest.java
+/workspaces/Currency_converter-using-SpringBoot/src/main/java/com/example/currency converter/dto/ExchangeRateResponse.java
+/workspaces/Currency_converter-using-SpringBoot/src/main/java/com/example/currency converter/exceptionhandling/GlobalExceptionHandler.java
+/workspaces/Currency_converter-using-SpringBoot/src/main/java/com/example/currency converter/model/ConversionHistory.java
+/workspaces/Currency_converter-using-SpringBoot/src/main/java/com/example/currency converter/repository/ConversionHistoryRepository.java
+/workspaces/Currency_converter-using-SpringBoot/src/main/java/com/example/currency converter/service/CurrencyService.java
